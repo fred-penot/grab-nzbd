@@ -1,0 +1,8 @@
+app:
+  image: fwed/grab-nzbd:gally
+  ports:
+    - 8997:8100
+  volumes:
+    - /home/apps/workspace/docker/js/GrabNzbd:/home/docker/GrabNzbd
+  net: "host_grabnzbd"
+  tty: true
