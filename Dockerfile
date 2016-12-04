@@ -28,4 +28,4 @@ COPY services.sh /root/services.sh
 RUN chmod -f 755 /root/services.sh
 
 # Point de montage
-VOLUME ["/home/${login_ssh}", "/home/${login_ssh}/GrabNzbd"]
+VOLUME ["/home/${login_ssh}"]
